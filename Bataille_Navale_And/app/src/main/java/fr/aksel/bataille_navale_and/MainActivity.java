@@ -2,6 +2,7 @@ package fr.aksel.bataille_navale_and;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
 import android.widget.Button;
@@ -24,8 +25,10 @@ public class MainActivity extends AppCompatActivity {
         this.setContentView(R.layout.activity_main);
 
 
-        //Button btn1 =(Button) findViewById(R.id.button3);
+        Button btn1 =(Button) findViewById(R.id.b6_4);
         //btn1.setBackgroundColor(getResources().getColor(red));
+
+
     }
 
 
@@ -33,6 +36,12 @@ public class MainActivity extends AppCompatActivity {
 
     void randomScen(){
 
+
+    }
+
+    void clicked(View v){
+        Button clickedBtn = findViewById(v.getId());
+        clickedBtn.setText("x");
     }
 
 }
