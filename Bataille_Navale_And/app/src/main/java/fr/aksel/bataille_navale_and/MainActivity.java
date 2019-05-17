@@ -4,6 +4,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Window;
 import android.view.WindowManager;
+import android.widget.Button;
+
+import static fr.aksel.bataille_navale_and.R.color.red;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -19,5 +22,17 @@ public class MainActivity extends AppCompatActivity {
 
         //set content view AFTER ABOVE sequence
         this.setContentView(R.layout.activity_main);
+
+
+        //Button btn1 =(Button) findViewById(R.id.button3);
+        //btn1.setBackgroundColor(getResources().getColor(red));
     }
+
+
+
+
+    void randomScen(){
+
+    }
+
 }
