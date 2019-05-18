@@ -24,95 +24,108 @@
 
 
             <Button
-                android:onClick="clicked"
                 android:id="@+id/b_1_1"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:layout_weight=".5" />
+                android:layout_weight=".5"
+                android:imeActionId="0"
+                android:onClick="clicked" />
 
             <Button
-                android:onClick="clicked"
                 android:id="@+id/b_2_1"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:layout_weight=".5" />
+                android:layout_weight=".5"
+                android:imeActionId="1"
+                android:onClick="clicked" />
 
             <Button
-                android:onClick="clicked"
                 android:id="@+id/b_3_1"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:layout_weight=".5" />
+                android:layout_weight=".5"
+                android:imeActionId="2"
+                android:onClick="clicked" />
 
             <Button
-                android:onClick="clicked"
                 android:id="@+id/b_4_1"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:layout_weight=".5" />
+                android:layout_weight=".5"
+                android:imeActionId="3"
+                android:onClick="clicked" />
 
             <Button
-                android:onClick="clicked"
                 android:id="@+id/b_5_1"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:layout_weight=".5" />
+                android:layout_weight=".5"
+                android:imeActionId="4"
+                android:onClick="clicked" />
 
             <Button
-                android:onClick="clicked"
                 android:id="@+id/b_6_1"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:layout_weight=".5" />
+                android:layout_weight=".5"
+                android:imeActionId="5"
+                android:onClick="clicked" />
 
             <Button
-                android:onClick="clicked"
                 android:id="@+id/b_7_1"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:layout_weight=".5" />
+                android:layout_weight=".5"
+                android:imeActionId="6"
+                android:onClick="clicked" />
 
             <Button
-                android:onClick="clicked"
                 android:id="@+id/b_8_1"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:layout_weight=".5" />
+                android:layout_weight=".5"
+                android:imeActionId="7"
+                android:onClick="clicked" />
 
             <Button
-                android:onClick="clicked"
                 android:id="@+id/b_9_1"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:layout_weight=".5" />
+                android:layout_weight=".5"
+                android:imeActionId="8"
+                android:onClick="clicked" />
 
             <Button
-                android:onClick="clicked"
                 android:id="@+id/b_10_1"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:layout_weight=".5" />
+                android:layout_weight=".5"
+                android:imeActionId="9"
+                android:onClick="clicked" />
 
             <Button
-                android:onClick="clicked"
                 android:id="@+id/b_11_1"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:layout_weight=".5" />
+                android:layout_weight=".5"
+                android:imeActionId="10"
+                android:onClick="clicked" />
 
             <Button
-                android:onClick="clicked"
                 android:id="@+id/b_12_1"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:layout_weight=".5" />
+                android:layout_weight=".5"
+                android:imeActionId="11"
+                android:onClick="clicked" />
 
             <Button
-                android:onClick="clicked"
                 android:id="@+id/b_13_1"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:layout_weight=".5" />
+                android:layout_weight=".5"
+                android:imeActionId="12"
+                android:onClick="clicked" />
 
 
         </TableRow>
@@ -124,95 +137,108 @@
 
 
             <Button
-                android:onClick="clicked"
                 android:id="@+id/b_1_2"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:layout_weight=".5" />
+                android:layout_weight=".5"
+                android:imeActionId="13"
+                android:onClick="clicked" />
 
             <Button
-                android:onClick="clicked"
                 android:id="@+id/b_2_2"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:layout_weight=".5" />
+                android:layout_weight=".5"
+                android:imeActionId="14"
+                android:onClick="clicked" />
 
             <Button
-                android:onClick="clicked"
                 android:id="@+id/b_3_2"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:layout_weight=".5" />
+                android:layout_weight=".5"
+                android:imeActionId="15"
+                android:onClick="clicked" />
 
             <Button
-                android:onClick="clicked"
                 android:id="@+id/b_4_2"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:layout_weight=".5" />
+                android:layout_weight=".5"
+                android:imeActionId="16"
+                android:onClick="clicked" />
 
             <Button
-                android:onClick="clicked"
                 android:id="@+id/b_5_2"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:layout_weight=".5" />
+                android:layout_weight=".5"
+                android:imeActionId="17"
+                android:onClick="clicked" />
 
             <Button
-                android:onClick="clicked"
                 android:id="@+id/b_6_2"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:layout_weight=".5" />
+                android:layout_weight=".5"
+                android:imeActionId="18"
+                android:onClick="clicked" />
 
             <Button
-                android:onClick="clicked"
                 android:id="@+id/b_7_2"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:layout_weight=".5" />
+                android:layout_weight=".5"
+                android:imeActionId="19"
+                android:onClick="clicked" />
 
             <Button
-                android:onClick="clicked"
                 android:id="@+id/b_8_2"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:layout_weight=".5" />
+                android:layout_weight=".5"
+                android:imeActionId="20"
+                android:onClick="clicked" />
 
             <Button
-                android:onClick="clicked"
                 android:id="@+id/b_9_2"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:layout_weight=".5" />
+                android:layout_weight=".5"
+                android:imeActionId="21"
+                android:onClick="clicked" />
 
             <Button
-                android:onClick="clicked"
                 android:id="@+id/b_10_2"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:layout_weight=".5" />
+                android:layout_weight=".5"
+                android:imeActionId="22"
+                android:onClick="clicked" />
 
             <Button
-                android:onClick="clicked"
                 android:id="@+id/b_11_2"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:layout_weight=".5" />
+                android:layout_weight=".5"
+                android:imeActionId="23"
+                android:onClick="clicked" />
 
             <Button
-                android:onClick="clicked"
                 android:id="@+id/b_12_2"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:layout_weight=".5" />
+                android:layout_weight=".5"
+                android:imeActionId="24"
+                android:onClick="clicked" />
 
             <Button
-                android:onClick="clicked"
                 android:id="@+id/b_13_2"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:layout_weight=".5" />
+                android:layout_weight=".5"
+                android:imeActionId="25"
+                android:onClick="clicked" />
 
 
         </TableRow>
@@ -224,95 +250,108 @@
 
 
             <Button
-                android:onClick="clicked"
                 android:id="@+id/b_1_3"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:layout_weight=".5" />
+                android:layout_weight=".5"
+                android:imeActionId="26"
+                android:onClick="clicked" />
 
             <Button
-                android:onClick="clicked"
                 android:id="@+id/b_2_3"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:layout_weight=".5" />
+                android:layout_weight=".5"
+                android:imeActionId="27"
+                android:onClick="clicked" />
 
             <Button
-                android:onClick="clicked"
                 android:id="@+id/b_3_3"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:layout_weight=".5" />
+                android:layout_weight=".5"
+                android:imeActionId="28"
+                android:onClick="clicked" />
 
             <Button
-                android:onClick="clicked"
                 android:id="@+id/b_4_3"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:layout_weight=".5" />
+                android:layout_weight=".5"
+                android:imeActionId="29"
+                android:onClick="clicked" />
 
             <Button
-                android:onClick="clicked"
                 android:id="@+id/b_5_3"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:layout_weight=".5" />
+                android:layout_weight=".5"
+                android:imeActionId="30"
+                android:onClick="clicked" />
 
             <Button
-                android:onClick="clicked"
                 android:id="@+id/b_6_3"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:layout_weight=".5" />
+                android:layout_weight=".5"
+                android:imeActionId="31"
+                android:onClick="clicked" />
 
             <Button
-                android:onClick="clicked"
                 android:id="@+id/b_7_3"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:layout_weight=".5" />
+                android:layout_weight=".5"
+                android:imeActionId="32"
+                android:onClick="clicked" />
 
             <Button
-                android:onClick="clicked"
                 android:id="@+id/b_8_3"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:layout_weight=".5" />
+                android:layout_weight=".5"
+                android:imeActionId="33"
+                android:onClick="clicked" />
 
             <Button
-                android:onClick="clicked"
                 android:id="@+id/b_9_3"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:layout_weight=".5" />
+                android:layout_weight=".5"
+                android:imeActionId="34"
+                android:onClick="clicked" />
 
             <Button
-                android:onClick="clicked"
                 android:id="@+id/b_10_3"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:layout_weight=".5" />
+                android:layout_weight=".5"
+                android:imeActionId="35"
+                android:onClick="clicked" />
 
             <Button
-                android:onClick="clicked"
                 android:id="@+id/b_11_3"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:layout_weight=".5" />
+                android:layout_weight=".5"
+                android:imeActionId="36"
+                android:onClick="clicked" />
 
             <Button
-                android:onClick="clicked"
                 android:id="@+id/b_12_3"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:layout_weight=".5" />
+                android:layout_weight=".5"
+                android:imeActionId="37"
+                android:onClick="clicked" />
 
             <Button
-                android:onClick="clicked"
                 android:id="@+id/b_13_3"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:layout_weight=".5" />
+                android:layout_weight=".5"
+                android:imeActionId="38"
+                android:onClick="clicked" />
 
 
         </TableRow>
@@ -324,95 +363,108 @@
 
 
             <Button
-                android:onClick="clicked"
                 android:id="@+id/b_1_4"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:layout_weight=".5" />
+                android:layout_weight=".5"
+                android:imeActionId="39"
+                android:onClick="clicked" />
 
             <Button
-                android:onClick="clicked"
                 android:id="@+id/b_2_4"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:layout_weight=".5" />
+                android:layout_weight=".5"
+                android:imeActionId="40"
+                android:onClick="clicked" />
 
             <Button
-                android:onClick="clicked"
                 android:id="@+id/b_3_4"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:layout_weight=".5" />
+                android:layout_weight=".5"
+                android:imeActionId="41"
+                android:onClick="clicked" />
 
             <Button
-                android:onClick="clicked"
                 android:id="@+id/b_4_4"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:layout_weight=".5" />
+                android:layout_weight=".5"
+                android:imeActionId="42"
+                android:onClick="clicked" />
 
             <Button
-                android:onClick="clicked"
                 android:id="@+id/b_5_4"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:layout_weight=".5" />
+                android:layout_weight=".5"
+                android:imeActionId="43"
+                android:onClick="clicked" />
 
             <Button
-                android:onClick="clicked"
                 android:id="@+id/b_6_4"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:layout_weight=".5" />
+                android:layout_weight=".5"
+                android:imeActionId="44"
+                android:onClick="clicked" />
 
             <Button
-                android:onClick="clicked"
                 android:id="@+id/b_7_4"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:layout_weight=".5" />
+                android:layout_weight=".5"
+                android:imeActionId="45"
+                android:onClick="clicked" />
 
             <Button
-                android:onClick="clicked"
                 android:id="@+id/b_8_4"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:layout_weight=".5" />
+                android:layout_weight=".5"
+                android:imeActionId="46"
+                android:onClick="clicked" />
 
             <Button
-                android:onClick="clicked"
                 android:id="@+id/b_9_4"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:layout_weight=".5" />
+                android:layout_weight=".5"
+                android:imeActionId="47"
+                android:onClick="clicked" />
 
             <Button
-                android:onClick="clicked"
                 android:id="@+id/b_10_4"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:layout_weight=".5" />
+                android:layout_weight=".5"
+                android:imeActionId="48"
+                android:onClick="clicked" />
 
             <Button
-                android:onClick="clicked"
                 android:id="@+id/b_11__4"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:layout_weight=".5" />
+                android:layout_weight=".5"
+                android:imeActionId="49"
+                android:onClick="clicked" />
 
             <Button
-                android:onClick="clicked"
                 android:id="@+id/b_12_4"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:layout_weight=".5" />
+                android:layout_weight=".5"
+                android:imeActionId="50"
+                android:onClick="clicked" />
 
             <Button
-                android:onClick="clicked"
                 android:id="@+id/b_13_4"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:layout_weight=".5" />
+                android:layout_weight=".5"
+                android:imeActionId="51"
+                android:onClick="clicked" />
 
 
         </TableRow>
@@ -424,95 +476,108 @@
 
 
             <Button
-                android:onClick="clicked"
                 android:id="@+id/b_1_5"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:layout_weight=".5" />
+                android:layout_weight=".5"
+                android:imeActionId="52"
+                android:onClick="clicked" />
 
             <Button
-                android:onClick="clicked"
                 android:id="@+id/b_2_5"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:layout_weight=".5" />
+                android:layout_weight=".5"
+                android:imeActionId="53"
+                android:onClick="clicked" />
 
             <Button
-                android:onClick="clicked"
                 android:id="@+id/b_3_5"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:layout_weight=".5" />
+                android:layout_weight=".5"
+                android:imeActionId="54"
+                android:onClick="clicked" />
 
             <Button
-                android:onClick="clicked"
                 android:id="@+id/b_4_5"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:layout_weight=".5" />
+                android:layout_weight=".5"
+                android:imeActionId="55"
+                android:onClick="clicked" />
 
             <Button
-                android:onClick="clicked"
                 android:id="@+id/b_5_5"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:layout_weight=".5" />
+                android:layout_weight=".5"
+                android:imeActionId="56"
+                android:onClick="clicked" />
 
             <Button
-                android:onClick="clicked"
                 android:id="@+id/b_6_5"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:layout_weight=".5" />
+                android:layout_weight=".5"
+                android:imeActionId="57"
+                android:onClick="clicked" />
 
             <Button
-                android:onClick="clicked"
                 android:id="@+id/b_7_5"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:layout_weight=".5" />
+                android:layout_weight=".5"
+                android:imeActionId="58"
+                android:onClick="clicked" />
 
             <Button
-                android:onClick="clicked"
                 android:id="@+id/b_8_5"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:layout_weight=".5" />
+                android:layout_weight=".5"
+                android:imeActionId="59"
+                android:onClick="clicked" />
 
             <Button
-                android:onClick="clicked"
                 android:id="@+id/b_9_5"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:layout_weight=".5" />
+                android:layout_weight=".5"
+                android:imeActionId="60"
+                android:onClick="clicked" />
 
             <Button
-                android:onClick="clicked"
                 android:id="@+id/b_10_5"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:layout_weight=".5" />
+                android:layout_weight=".5"
+                android:imeActionId="61"
+                android:onClick="clicked" />
 
             <Button
-                android:onClick="clicked"
                 android:id="@+id/b_11_5"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:layout_weight=".5" />
+                android:layout_weight=".5"
+                android:imeActionId="62"
+                android:onClick="clicked" />
 
             <Button
-                android:onClick="clicked"
                 android:id="@+id/b_12_5"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:layout_weight=".5" />
+                android:layout_weight=".5"
+                android:imeActionId="63"
+                android:onClick="clicked" />
 
             <Button
-                android:onClick="clicked"
                 android:id="@+id/b_13_5"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:layout_weight=".5" />
+                android:layout_weight=".5"
+                android:imeActionId="64"
+                android:onClick="clicked" />
 
 
         </TableRow>
@@ -524,95 +589,108 @@
 
 
             <Button
-                android:onClick="clicked"
                 android:id="@+id/b_1_6"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:layout_weight=".5" />
+                android:layout_weight=".5"
+                android:imeActionId="65"
+                android:onClick="clicked" />
 
             <Button
-                android:onClick="clicked"
                 android:id="@+id/b_2_6"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:layout_weight=".5" />
+                android:layout_weight=".5"
+                android:imeActionId="66"
+                android:onClick="clicked" />
 
             <Button
-                android:onClick="clicked"
                 android:id="@+id/b_3_6"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:layout_weight=".5" />
+                android:layout_weight=".5"
+                android:imeActionId="67"
+                android:onClick="clicked" />
 
             <Button
-                android:onClick="clicked"
                 android:id="@+id/b_4_6"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:layout_weight=".5" />
+                android:layout_weight=".5"
+                android:imeActionId="68"
+                android:onClick="clicked" />
 
             <Button
-                android:onClick="clicked"
                 android:id="@+id/b_5_6"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:layout_weight=".5" />
+                android:layout_weight=".5"
+                android:imeActionId="69"
+                android:onClick="clicked" />
 
             <Button
-                android:onClick="clicked"
                 android:id="@+id/b_6_6"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:layout_weight=".5" />
+                android:layout_weight=".5"
+                android:imeActionId="70"
+                android:onClick="clicked" />
 
             <Button
-                android:onClick="clicked"
                 android:id="@+id/b_7_6"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:layout_weight=".5" />
+                android:layout_weight=".5"
+                android:imeActionId="71"
+                android:onClick="clicked" />
 
             <Button
-                android:onClick="clicked"
                 android:id="@+id/b_8_6"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:layout_weight=".5" />
+                android:layout_weight=".5"
+                android:imeActionId="72"
+                android:onClick="clicked" />
 
             <Button
-                android:onClick="clicked"
                 android:id="@+id/b_9_6"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:layout_weight=".5" />
+                android:layout_weight=".5"
+                android:imeActionId="73"
+                android:onClick="clicked" />
 
             <Button
-                android:onClick="clicked"
                 android:id="@+id/b_10_6"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:layout_weight=".5" />
+                android:layout_weight=".5"
+                android:imeActionId="74"
+                android:onClick="clicked" />
 
             <Button
-                android:onClick="clicked"
                 android:id="@+id/b_11_6"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:layout_weight=".5" />
+                android:layout_weight=".5"
+                android:imeActionId="75"
+                android:onClick="clicked" />
 
             <Button
-                android:onClick="clicked"
                 android:id="@+id/b_12_6"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:layout_weight=".5" />
+                android:layout_weight=".5"
+                android:imeActionId="76"
+                android:onClick="clicked" />
 
             <Button
-                android:onClick="clicked"
                 android:id="@+id/b_13_6"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:layout_weight=".5" />
+                android:layout_weight=".5"
+                android:imeActionId="77"
+                android:onClick="clicked" />
 
 
         </TableRow>
@@ -624,95 +702,108 @@
 
 
             <Button
-                android:onClick="clicked"
                 android:id="@+id/b_1_7"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:layout_weight=".5" />
+                android:layout_weight=".5"
+                android:imeActionId="78"
+                android:onClick="clicked" />
 
             <Button
-                android:onClick="clicked"
                 android:id="@+id/b_u2_7"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:layout_weight=".5" />
+                android:layout_weight=".5"
+                android:imeActionId="79"
+                android:onClick="clicked" />
 
             <Button
-                android:onClick="clicked"
                 android:id="@+id/b_3_7"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:layout_weight=".5" />
+                android:layout_weight=".5"
+                android:imeActionId="80"
+                android:onClick="clicked" />
 
             <Button
-                android:onClick="clicked"
                 android:id="@+id/b_4_7"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:layout_weight=".5" />
+                android:layout_weight=".5"
+                android:imeActionId="81"
+                android:onClick="clicked" />
 
             <Button
-                android:onClick="clicked"
                 android:id="@+id/b_5_7"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:layout_weight=".5" />
+                android:layout_weight=".5"
+                android:imeActionId="82"
+                android:onClick="clicked" />
 
             <Button
-                android:onClick="clicked"
                 android:id="@+id/b_6_7"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:layout_weight=".5" />
+                android:layout_weight=".5"
+                android:imeActionId="83"
+                android:onClick="clicked" />
 
             <Button
-                android:onClick="clicked"
                 android:id="@+id/b_7_7"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:layout_weight=".5" />
+                android:layout_weight=".5"
+                android:imeActionId="84"
+                android:onClick="clicked" />
 
             <Button
-                android:onClick="clicked"
                 android:id="@+id/b_8_7"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:layout_weight=".5" />
+                android:layout_weight=".5"
+                android:imeActionId="85"
+                android:onClick="clicked" />
 
             <Button
-                android:onClick="clicked"
                 android:id="@+id/b_9_7"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:layout_weight=".5" />
+                android:layout_weight=".5"
+                android:imeActionId="86"
+                android:onClick="clicked" />
 
             <Button
-                android:onClick="clicked"
                 android:id="@+id/b_10_7"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:layout_weight=".5" />
+                android:layout_weight=".5"
+                android:imeActionId="87"
+                android:onClick="clicked" />
 
             <Button
-                android:onClick="clicked"
                 android:id="@+id/b_11_7"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:layout_weight=".5" />
+                android:layout_weight=".5"
+                android:imeActionId="88"
+                android:onClick="clicked" />
 
             <Button
-                android:onClick="clicked"
                 android:id="@+id/b_12_7"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:layout_weight=".5" />
+                android:layout_weight=".5"
+                android:imeActionId="89"
+                android:onClick="clicked" />
 
             <Button
-                android:onClick="clicked"
                 android:id="@+id/b_13_7"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:layout_weight=".5" />
+                android:layout_weight=".5"
+                android:imeActionId="90"
+                android:onClick="clicked" />
 
 
         </TableRow>
@@ -724,95 +815,108 @@
 
 
             <Button
-                android:onClick="clicked"
                 android:id="@+id/b_1_8"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:layout_weight=".5" />
+                android:layout_weight=".5"
+                android:imeActionId="91"
+                android:onClick="clicked" />
 
             <Button
-                android:onClick="clicked"
                 android:id="@+id/b_2_8"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:layout_weight=".5" />
+                android:layout_weight=".5"
+                android:imeActionId="92"
+                android:onClick="clicked" />
 
             <Button
-                android:onClick="clicked"
                 android:id="@+id/b_3_8"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:layout_weight=".5" />
+                android:layout_weight=".5"
+                android:imeActionId="93"
+                android:onClick="clicked" />
 
             <Button
-                android:onClick="clicked"
                 android:id="@+id/b_4_8"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:layout_weight=".5" />
+                android:layout_weight=".5"
+                android:imeActionId="94"
+                android:onClick="clicked" />
 
             <Button
-                android:onClick="clicked"
                 android:id="@+id/b_5_8"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:layout_weight=".5" />
+                android:layout_weight=".5"
+                android:imeActionId="95"
+                android:onClick="clicked" />
 
             <Button
-                android:onClick="clicked"
                 android:id="@+id/b_6_8"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:layout_weight=".5" />
+                android:layout_weight=".5"
+                android:imeActionId="96"
+                android:onClick="clicked" />
 
             <Button
-                android:onClick="clicked"
                 android:id="@+id/b_7_8"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:layout_weight=".5" />
+                android:layout_weight=".5"
+                android:imeActionId="97"
+                android:onClick="clicked" />
 
             <Button
-                android:onClick="clicked"
                 android:id="@+id/b_8_8"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:layout_weight=".5" />
+                android:layout_weight=".5"
+                android:imeActionId="98"
+                android:onClick="clicked" />
 
             <Button
-                android:onClick="clicked"
                 android:id="@+id/b_9_8"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:layout_weight=".5" />
+                android:layout_weight=".5"
+                android:imeActionId="99"
+                android:onClick="clicked" />
 
             <Button
-                android:onClick="clicked"
                 android:id="@+id/b_10_8"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:layout_weight=".5" />
+                android:layout_weight=".5"
+                android:imeActionId="100"
+                android:onClick="clicked" />
 
             <Button
-                android:onClick="clicked"
                 android:id="@+id/b_11_8"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:layout_weight=".5" />
+                android:layout_weight=".5"
+                android:imeActionId="101"
+                android:onClick="clicked" />
 
             <Button
-                android:onClick="clicked"
                 android:id="@+id/b_12_8"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:layout_weight=".5" />
+                android:layout_weight=".5"
+                android:imeActionId="102"
+                android:onClick="clicked" />
 
             <Button
-                android:onClick="clicked"
                 android:id="@+id/b_13_8"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:layout_weight=".5" />
+                android:layout_weight=".5"
+                android:imeActionId="103"
+                android:onClick="clicked" />
 
 
         </TableRow>
