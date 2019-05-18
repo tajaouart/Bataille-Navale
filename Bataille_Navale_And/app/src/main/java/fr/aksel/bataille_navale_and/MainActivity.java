@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
         this.setContentView(R.layout.activity_main);
 
 
-        Button btn1 =(Button) findViewById(R.id.b6_4);
+        //Button btn1 =(Button) findViewById(R.id.b6_4);
         //btn1.setBackgroundColor(getResources().getColor(red));
 
         randomGame();
@@ -100,13 +100,9 @@ public class MainActivity extends AppCompatActivity {
     private static int[][] fullingInShipsValues(int[][] ship) {
         int width  = ship.length;
         int height = ship[0].length;
-        System.out.println("width : "+width);
-        System.out.println("width : "+height);
-
         for (int i=0; i<width; i++){
             for (int j=0; j<height; j++){
                 if(i==0 || i==(width-1) || j==0 || j==(height-1)){
-                    System.out.println("yes");
                     ship[i][j] = 5;
                 } else{
                     ship[i][j] = 1;
@@ -180,7 +176,23 @@ public class MainActivity extends AppCompatActivity {
 
     void clicked(View v){
         Button clickedBtn = findViewById(v.getId());
-        clickedBtn.setText("x");
+        System.out.println("=======================");
+        System.out.println("x : "+clickedBtn.getImeActionId()*1);
+        int indexBtn = clickedBtn.getImeActionId();
+        int x=0,y=0;
+        while((indexBtn-13)>0){
+            indexBtn = indexBtn - 13;
+            y++;
+        }
+        x=indexBtn;
+        if(scene[x][y]==1){
+            clickedBtn.setText("1");
+        } else{
+            clickedBtn.setText("0");
+        }
+
+        System.out.println("=======================");
+        //clickedBtn.setText("x");
     }
 
 }
