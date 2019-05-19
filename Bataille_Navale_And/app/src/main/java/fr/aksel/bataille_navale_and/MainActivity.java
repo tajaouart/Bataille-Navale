@@ -116,13 +116,21 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    private static void insertShip(int[][] ship,int nbrInsertedCroiseur) {
+    // insert the ship into the scene
+    private static void insertShip(int[][] aShip,int nbrInsertedShips) {
 
         int x,y;
-        while(nbrInsertedCroiseur>0){
+        int [][] ship = aShip;
+        int nbrEmptyBoxes;
+        while(nbrInsertedShips>0){
             x = RandomX();
             y = RandomY();
-            int nbrEmptyBoxes =0;
+            nbrEmptyBoxes =0;
+            if((int)(Math.random())*100 % 2==0){
+                ship = rotateShip(ship);
+            }
+
+
             if(x<(W-ship.length) && y<(H-ship[0].length)){
                 for(int i=x ; i<(x+ship.length);i++){
                     for (int j=y; j<(y+ship[0].length); j++){
@@ -133,6 +141,7 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
 
+            // if place is ok to insert then inert
             if(nbrEmptyBoxes >= (ship.length*ship[0].length)){
                 for(int i=0 ; i<ship.length;i++){
                     for (int j=0; j<ship[0].length; j++){
@@ -141,10 +150,26 @@ public class MainActivity extends AppCompatActivity {
                         scene[i+x][j+y]=value;
                     }
                 }
-                nbrInsertedCroiseur--;
+                nbrInsertedShips--;
             }
         }
     }
+
+    private static int[][] rotateShip(int[][] ship) {
+        int width  = ship.length;
+        int height = ship[0].length;
+        int [][] verticalShip = new int[height][width];
+        for (int i=0; i<width; i++){
+            for (int j=0; j<height; j++){
+                int[] column = (int[])Array.get(ship,i);
+                int value = (int) Array.get(column,j);
+                verticalShip[j][i] = value;
+            }
+        }
+        return verticalShip;
+    }
+
+
 
 
     @RequiresApi(api = Build.VERSION_CODES.JELLY_BEAN)
