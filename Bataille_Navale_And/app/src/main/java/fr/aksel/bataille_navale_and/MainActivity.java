@@ -1,5 +1,9 @@
 package fr.aksel.bataille_navale_and;
 
+import android.graphics.drawable.Drawable;
+import android.os.Build;
+import android.support.annotation.RequiresApi;
+import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -26,9 +30,6 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -41,42 +42,21 @@ public class MainActivity extends AppCompatActivity {
 
         //set content view AFTER ABOVE sequence
         this.setContentView(R.layout.activity_main);
-
-
-        //Button btn1 =(Button) findViewById(R.id.b6_4);
-        //btn1.setBackgroundColor(getResources().getColor(red));
-
         randomGame();
         ShowScene();
-
-
     }
 
-
-
-
     public static  void randomGame(){
-
-
         // settin all boxes to 0, the initial state
         scene = initialiseScene();
         initialiseBoxes();
         fullingInTheScene();
-
-
     }
-
     private static void fullingInTheScene() {
-
         insertShip(Croiseur,nbrCroiseur);
         insertShip(Escorteurs,nbrEscorteurs);
         insertShip(Torpilleurs, nbrTorpilleurs);
         insertShip(Sous_marins,nbrSous_marins);
-
-
-
-
-
     }
 
 
@@ -126,8 +106,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private static void ShowScene() {
-
-
         for(int i = 0 ; i < 14 ; i++){
             for (int j=0 ; j<8 ; j++ ){
                 int[] column = (int[])Array.get(scene,i);
@@ -136,7 +114,6 @@ public class MainActivity extends AppCompatActivity {
             }
             System.out.print("\n");
         }
-
     }
 
     private static void insertShip(int[][] ship,int nbrInsertedCroiseur) {
@@ -156,7 +133,6 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
 
-
             if(nbrEmptyBoxes >= (ship.length*ship[0].length)){
                 for(int i=0 ; i<ship.length;i++){
                     for (int j=0; j<ship[0].length; j++){
@@ -167,17 +143,13 @@ public class MainActivity extends AppCompatActivity {
                 }
                 nbrInsertedCroiseur--;
             }
-
-
-
         }
     }
 
 
+    @RequiresApi(api = Build.VERSION_CODES.JELLY_BEAN)
     void clicked(View v){
         Button clickedBtn = findViewById(v.getId());
-        System.out.println("=======================");
-        System.out.println("x : "+clickedBtn.getImeActionId()*1);
         int indexBtn = clickedBtn.getImeActionId();
         int x=0,y=0;
         while((indexBtn-13)>0){
@@ -186,13 +158,16 @@ public class MainActivity extends AppCompatActivity {
         }
         x=indexBtn;
         if(scene[x][y]==1){
-            clickedBtn.setText("1");
+            //clickedBtn.setBackgroundColor(getResources().getColor(R.color.colorPrimary));
+            Drawable star = ContextCompat.getDrawable(this, android.R.drawable.star_big_on);
+            clickedBtn.setBackground(star);
         } else{
-            clickedBtn.setText("0");
-        }
+            clickedBtn.setText(".");
+            clickedBtn.setTextColor(getResources().getColor(R.color.colorPrimary));
+            //clickedBtn.setVisibility(View.INVISIBLE);
+            clickedBtn.setBackgroundColor(android.R.attr.colorError);
 
-        System.out.println("=======================");
-        //clickedBtn.setText("x");
+        }
     }
 
 }

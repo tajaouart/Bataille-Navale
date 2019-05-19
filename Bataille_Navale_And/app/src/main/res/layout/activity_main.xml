@@ -11,23 +11,28 @@
     <TableLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@color/blue"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        android:padding="5sp">
 
         <TableRow
+            android:id="@+id/r1"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight=".5"
-            android:id="@+id/r1">
+            android:gravity="center">
 
 
             <Button
                 android:id="@+id/b_1_1"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
+                android:layout_margin="1sp"
                 android:layout_weight=".5"
+                android:background="@color/colorPrimaryDark"
                 android:imeActionId="0"
                 android:onClick="clicked" />
 
@@ -35,39 +40,50 @@
                 android:id="@+id/b_2_1"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
+                android:layout_margin="1sp"
                 android:layout_weight=".5"
                 android:imeActionId="1"
+                android:background="@color/colorPrimaryDark"
                 android:onClick="clicked" />
 
             <Button
                 android:id="@+id/b_3_1"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
+                android:layout_margin="1sp"
                 android:layout_weight=".5"
                 android:imeActionId="2"
-                android:onClick="clicked" />
+                android:onClick="clicked"
+                android:background="@color/colorPrimaryDark" />
 
             <Button
                 android:id="@+id/b_4_1"
+                style="@android:style/Widget.Button"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
+                android:layout_margin="1sp"
                 android:layout_weight=".5"
                 android:imeActionId="3"
+                android:background="@color/colorPrimaryDark"
                 android:onClick="clicked" />
 
             <Button
                 android:id="@+id/b_5_1"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
+                android:layout_margin="1sp"
                 android:layout_weight=".5"
                 android:imeActionId="4"
+                android:background="@color/colorPrimaryDark"
                 android:onClick="clicked" />
 
             <Button
                 android:id="@+id/b_6_1"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
+                android:layout_margin="1sp"
                 android:layout_weight=".5"
+                android:background="@color/colorPrimaryDark"
                 android:imeActionId="5"
                 android:onClick="clicked" />
 
@@ -75,56 +91,70 @@
                 android:id="@+id/b_7_1"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
+                android:layout_margin="1sp"
                 android:layout_weight=".5"
                 android:imeActionId="6"
+                android:background="@color/colorPrimaryDark"
                 android:onClick="clicked" />
 
             <Button
                 android:id="@+id/b_8_1"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
+                android:layout_margin="1sp"
                 android:layout_weight=".5"
                 android:imeActionId="7"
+                android:background="@color/colorPrimaryDark"
                 android:onClick="clicked" />
 
             <Button
                 android:id="@+id/b_9_1"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
+                android:layout_margin="1sp"
                 android:layout_weight=".5"
                 android:imeActionId="8"
+                android:background="@color/colorPrimaryDark"
                 android:onClick="clicked" />
 
             <Button
                 android:id="@+id/b_10_1"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
+                android:layout_margin="1sp"
                 android:layout_weight=".5"
                 android:imeActionId="9"
+                android:background="@color/colorPrimaryDark"
                 android:onClick="clicked" />
 
             <Button
                 android:id="@+id/b_11_1"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
+                android:layout_margin="1sp"
                 android:layout_weight=".5"
                 android:imeActionId="10"
+                android:background="@color/colorPrimaryDark"
                 android:onClick="clicked" />
 
             <Button
                 android:id="@+id/b_12_1"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
+                android:layout_margin="1sp"
                 android:layout_weight=".5"
                 android:imeActionId="11"
+                android:background="@color/colorPrimaryDark"
                 android:onClick="clicked" />
 
             <Button
                 android:id="@+id/b_13_1"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
+                android:layout_margin="1sp"
                 android:layout_weight=".5"
                 android:imeActionId="12"
+                android:background="@color/colorPrimaryDark"
                 android:onClick="clicked" />
 
 
@@ -140,39 +170,52 @@
                 android:id="@+id/b_1_2"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
+                android:layout_margin="1sp"
                 android:layout_weight=".5"
                 android:imeActionId="13"
+                android:background="@color/colorPrimaryDark"
                 android:onClick="clicked" />
 
             <Button
                 android:id="@+id/b_2_2"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
+                android:layout_margin="1sp"
                 android:layout_weight=".5"
                 android:imeActionId="14"
+                android:background="@color/colorPrimaryDark"
                 android:onClick="clicked" />
 
             <Button
                 android:id="@+id/b_3_2"
+                style="@style/Widget.AppCompat.Button"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
+                android:layout_margin="1sp"
                 android:layout_weight=".5"
                 android:imeActionId="15"
+                android:background="@color/colorPrimaryDark"
                 android:onClick="clicked" />
 
             <Button
                 android:id="@+id/b_4_2"
+                style="@android:style/Widget.Button"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
+                android:layout_margin="1sp"
                 android:layout_weight=".5"
                 android:imeActionId="16"
+                android:background="@color/colorPrimaryDark"
                 android:onClick="clicked" />
 
             <Button
                 android:id="@+id/b_5_2"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
+                android:layout_margin="1sp"
                 android:layout_weight=".5"
+                android:background="@color/colorPrimaryDark"
                 android:imeActionId="17"
                 android:onClick="clicked" />
 
@@ -180,7 +223,9 @@
                 android:id="@+id/b_6_2"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
+                android:layout_margin="1sp"
                 android:layout_weight=".5"
+                android:background="@color/colorPrimaryDark"
                 android:imeActionId="18"
                 android:onClick="clicked" />
 
@@ -188,56 +233,70 @@
                 android:id="@+id/b_7_2"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
+                android:layout_margin="1sp"
                 android:layout_weight=".5"
                 android:imeActionId="19"
+                android:background="@color/colorPrimaryDark"
                 android:onClick="clicked" />
 
             <Button
                 android:id="@+id/b_8_2"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
+                android:layout_margin="1sp"
                 android:layout_weight=".5"
                 android:imeActionId="20"
+                android:background="@color/colorPrimaryDark"
                 android:onClick="clicked" />
 
             <Button
                 android:id="@+id/b_9_2"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
+                android:layout_margin="1sp"
                 android:layout_weight=".5"
                 android:imeActionId="21"
+                android:background="@color/colorPrimaryDark"
                 android:onClick="clicked" />
 
             <Button
                 android:id="@+id/b_10_2"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
+                android:layout_margin="1sp"
                 android:layout_weight=".5"
                 android:imeActionId="22"
+                android:background="@color/colorPrimaryDark"
                 android:onClick="clicked" />
 
             <Button
                 android:id="@+id/b_11_2"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
+                android:layout_margin="1sp"
                 android:layout_weight=".5"
                 android:imeActionId="23"
+                android:background="@color/colorPrimaryDark"
                 android:onClick="clicked" />
 
             <Button
                 android:id="@+id/b_12_2"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
+                android:layout_margin="1sp"
                 android:layout_weight=".5"
                 android:imeActionId="24"
+                android:background="@color/colorPrimaryDark"
                 android:onClick="clicked" />
 
             <Button
                 android:id="@+id/b_13_2"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
+                android:layout_margin="1sp"
                 android:layout_weight=".5"
                 android:imeActionId="25"
+                android:background="@color/colorPrimaryDark"
                 android:onClick="clicked" />
 
 
@@ -253,104 +312,130 @@
                 android:id="@+id/b_1_3"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
+                android:layout_margin="1sp"
                 android:layout_weight=".5"
                 android:imeActionId="26"
+                android:background="@color/colorPrimaryDark"
                 android:onClick="clicked" />
 
             <Button
                 android:id="@+id/b_2_3"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
+                android:layout_margin="1sp"
                 android:layout_weight=".5"
                 android:imeActionId="27"
+                android:background="@color/colorPrimaryDark"
                 android:onClick="clicked" />
 
             <Button
                 android:id="@+id/b_3_3"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
+                android:layout_margin="1sp"
                 android:layout_weight=".5"
                 android:imeActionId="28"
+                android:background="@color/colorPrimaryDark"
                 android:onClick="clicked" />
 
             <Button
                 android:id="@+id/b_4_3"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
+                android:layout_margin="1sp"
                 android:layout_weight=".5"
                 android:imeActionId="29"
+                android:background="@color/colorPrimaryDark"
                 android:onClick="clicked" />
 
             <Button
                 android:id="@+id/b_5_3"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
+                android:layout_margin="1sp"
                 android:layout_weight=".5"
                 android:imeActionId="30"
+                android:background="@color/colorPrimaryDark"
                 android:onClick="clicked" />
 
             <Button
                 android:id="@+id/b_6_3"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
+                android:layout_margin="1sp"
                 android:layout_weight=".5"
                 android:imeActionId="31"
+                android:background="@color/colorPrimaryDark"
                 android:onClick="clicked" />
 
             <Button
                 android:id="@+id/b_7_3"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
+                android:layout_margin="1sp"
                 android:layout_weight=".5"
                 android:imeActionId="32"
+                android:background="@color/colorPrimaryDark"
                 android:onClick="clicked" />
 
             <Button
                 android:id="@+id/b_8_3"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
+                android:layout_margin="1sp"
                 android:layout_weight=".5"
                 android:imeActionId="33"
+                android:background="@color/colorPrimaryDark"
                 android:onClick="clicked" />
 
             <Button
                 android:id="@+id/b_9_3"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
+                android:layout_margin="1sp"
                 android:layout_weight=".5"
                 android:imeActionId="34"
+                android:background="@color/colorPrimaryDark"
                 android:onClick="clicked" />
 
             <Button
                 android:id="@+id/b_10_3"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
+                android:layout_margin="1sp"
                 android:layout_weight=".5"
                 android:imeActionId="35"
+                android:background="@color/colorPrimaryDark"
                 android:onClick="clicked" />
 
             <Button
                 android:id="@+id/b_11_3"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
+                android:layout_margin="1sp"
                 android:layout_weight=".5"
                 android:imeActionId="36"
+                android:background="@color/colorPrimaryDark"
                 android:onClick="clicked" />
 
             <Button
                 android:id="@+id/b_12_3"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
+                android:layout_margin="1sp"
                 android:layout_weight=".5"
                 android:imeActionId="37"
+                android:background="@color/colorPrimaryDark"
                 android:onClick="clicked" />
 
             <Button
                 android:id="@+id/b_13_3"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
+                android:layout_margin="1sp"
                 android:layout_weight=".5"
                 android:imeActionId="38"
+                android:background="@color/colorPrimaryDark"
                 android:onClick="clicked" />
 
 
@@ -366,104 +451,130 @@
                 android:id="@+id/b_1_4"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
+                android:layout_margin="1sp"
                 android:layout_weight=".5"
                 android:imeActionId="39"
+                android:background="@color/colorPrimaryDark"
                 android:onClick="clicked" />
 
             <Button
                 android:id="@+id/b_2_4"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
+                android:layout_margin="1sp"
                 android:layout_weight=".5"
                 android:imeActionId="40"
+                android:background="@color/colorPrimaryDark"
                 android:onClick="clicked" />
 
             <Button
                 android:id="@+id/b_3_4"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
+                android:layout_margin="1sp"
                 android:layout_weight=".5"
                 android:imeActionId="41"
+                android:background="@color/colorPrimaryDark"
                 android:onClick="clicked" />
 
             <Button
                 android:id="@+id/b_4_4"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
+                android:layout_margin="1sp"
                 android:layout_weight=".5"
                 android:imeActionId="42"
+                android:background="@color/colorPrimaryDark"
                 android:onClick="clicked" />
 
             <Button
                 android:id="@+id/b_5_4"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
+                android:layout_margin="1sp"
                 android:layout_weight=".5"
                 android:imeActionId="43"
+                android:background="@color/colorPrimaryDark"
                 android:onClick="clicked" />
 
             <Button
                 android:id="@+id/b_6_4"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
+                android:layout_margin="1sp"
                 android:layout_weight=".5"
                 android:imeActionId="44"
+                android:background="@color/colorPrimaryDark"
                 android:onClick="clicked" />
 
             <Button
                 android:id="@+id/b_7_4"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
+                android:layout_margin="1sp"
                 android:layout_weight=".5"
                 android:imeActionId="45"
+                android:background="@color/colorPrimaryDark"
                 android:onClick="clicked" />
 
             <Button
                 android:id="@+id/b_8_4"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
+                android:layout_margin="1sp"
                 android:layout_weight=".5"
                 android:imeActionId="46"
+                android:background="@color/colorPrimaryDark"
                 android:onClick="clicked" />
 
             <Button
                 android:id="@+id/b_9_4"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
+                android:layout_margin="1sp"
                 android:layout_weight=".5"
                 android:imeActionId="47"
+                android:background="@color/colorPrimaryDark"
                 android:onClick="clicked" />
 
             <Button
                 android:id="@+id/b_10_4"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
+                android:layout_margin="1sp"
                 android:layout_weight=".5"
                 android:imeActionId="48"
+                android:background="@color/colorPrimaryDark"
                 android:onClick="clicked" />
 
             <Button
                 android:id="@+id/b_11__4"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
+                android:layout_margin="1sp"
                 android:layout_weight=".5"
                 android:imeActionId="49"
+                android:background="@color/colorPrimaryDark"
                 android:onClick="clicked" />
 
             <Button
                 android:id="@+id/b_12_4"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
+                android:layout_margin="1sp"
                 android:layout_weight=".5"
                 android:imeActionId="50"
+                android:background="@color/colorPrimaryDark"
                 android:onClick="clicked" />
 
             <Button
                 android:id="@+id/b_13_4"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
+                android:layout_margin="1sp"
                 android:layout_weight=".5"
                 android:imeActionId="51"
+                android:background="@color/colorPrimaryDark"
                 android:onClick="clicked" />
 
 
@@ -479,104 +590,130 @@
                 android:id="@+id/b_1_5"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
+                android:layout_margin="1sp"
                 android:layout_weight=".5"
                 android:imeActionId="52"
+                android:background="@color/colorPrimaryDark"
                 android:onClick="clicked" />
 
             <Button
                 android:id="@+id/b_2_5"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
+                android:layout_margin="1sp"
                 android:layout_weight=".5"
                 android:imeActionId="53"
+                android:background="@color/colorPrimaryDark"
                 android:onClick="clicked" />
 
             <Button
                 android:id="@+id/b_3_5"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
+                android:layout_margin="1sp"
                 android:layout_weight=".5"
                 android:imeActionId="54"
+                android:background="@color/colorPrimaryDark"
                 android:onClick="clicked" />
 
             <Button
                 android:id="@+id/b_4_5"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
+                android:layout_margin="1sp"
                 android:layout_weight=".5"
                 android:imeActionId="55"
+                android:background="@color/colorPrimaryDark"
                 android:onClick="clicked" />
 
             <Button
                 android:id="@+id/b_5_5"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
+                android:layout_margin="1sp"
                 android:layout_weight=".5"
                 android:imeActionId="56"
+                android:background="@color/colorPrimaryDark"
                 android:onClick="clicked" />
 
             <Button
                 android:id="@+id/b_6_5"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
+                android:layout_margin="1sp"
                 android:layout_weight=".5"
                 android:imeActionId="57"
+                android:background="@color/colorPrimaryDark"
                 android:onClick="clicked" />
 
             <Button
                 android:id="@+id/b_7_5"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
+                android:layout_margin="1sp"
                 android:layout_weight=".5"
                 android:imeActionId="58"
+                android:background="@color/colorPrimaryDark"
                 android:onClick="clicked" />
 
             <Button
                 android:id="@+id/b_8_5"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
+                android:layout_margin="1sp"
                 android:layout_weight=".5"
                 android:imeActionId="59"
+                android:background="@color/colorPrimaryDark"
                 android:onClick="clicked" />
 
             <Button
                 android:id="@+id/b_9_5"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
+                android:layout_margin="1sp"
                 android:layout_weight=".5"
                 android:imeActionId="60"
+                android:background="@color/colorPrimaryDark"
                 android:onClick="clicked" />
 
             <Button
                 android:id="@+id/b_10_5"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
+                android:layout_margin="1sp"
                 android:layout_weight=".5"
                 android:imeActionId="61"
+                android:background="@color/colorPrimaryDark"
                 android:onClick="clicked" />
 
             <Button
                 android:id="@+id/b_11_5"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
+                android:layout_margin="1sp"
                 android:layout_weight=".5"
                 android:imeActionId="62"
+                android:background="@color/colorPrimaryDark"
                 android:onClick="clicked" />
 
             <Button
                 android:id="@+id/b_12_5"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
+                android:layout_margin="1sp"
                 android:layout_weight=".5"
                 android:imeActionId="63"
+                android:background="@color/colorPrimaryDark"
                 android:onClick="clicked" />
 
             <Button
                 android:id="@+id/b_13_5"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
+                android:layout_margin="1sp"
                 android:layout_weight=".5"
                 android:imeActionId="64"
+                android:background="@color/colorPrimaryDark"
                 android:onClick="clicked" />
 
 
@@ -592,104 +729,130 @@
                 android:id="@+id/b_1_6"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
+                android:layout_margin="1sp"
                 android:layout_weight=".5"
                 android:imeActionId="65"
+                android:background="@color/colorPrimaryDark"
                 android:onClick="clicked" />
 
             <Button
                 android:id="@+id/b_2_6"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
+                android:layout_margin="1sp"
                 android:layout_weight=".5"
                 android:imeActionId="66"
+                android:background="@color/colorPrimaryDark"
                 android:onClick="clicked" />
 
             <Button
                 android:id="@+id/b_3_6"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
+                android:layout_margin="1sp"
                 android:layout_weight=".5"
                 android:imeActionId="67"
+                android:background="@color/colorPrimaryDark"
                 android:onClick="clicked" />
 
             <Button
                 android:id="@+id/b_4_6"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
+                android:layout_margin="1sp"
                 android:layout_weight=".5"
                 android:imeActionId="68"
+                android:background="@color/colorPrimaryDark"
                 android:onClick="clicked" />
 
             <Button
                 android:id="@+id/b_5_6"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
+                android:layout_margin="1sp"
                 android:layout_weight=".5"
                 android:imeActionId="69"
+                android:background="@color/colorPrimaryDark"
                 android:onClick="clicked" />
 
             <Button
                 android:id="@+id/b_6_6"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
+                android:layout_margin="1sp"
                 android:layout_weight=".5"
                 android:imeActionId="70"
+                android:background="@color/colorPrimaryDark"
                 android:onClick="clicked" />
 
             <Button
                 android:id="@+id/b_7_6"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
+                android:layout_margin="1sp"
                 android:layout_weight=".5"
                 android:imeActionId="71"
+                android:background="@color/colorPrimaryDark"
                 android:onClick="clicked" />
 
             <Button
                 android:id="@+id/b_8_6"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
+                android:layout_margin="1sp"
                 android:layout_weight=".5"
                 android:imeActionId="72"
+                android:background="@color/colorPrimaryDark"
                 android:onClick="clicked" />
 
             <Button
                 android:id="@+id/b_9_6"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
+                android:layout_margin="1sp"
                 android:layout_weight=".5"
                 android:imeActionId="73"
+                android:background="@color/colorPrimaryDark"
                 android:onClick="clicked" />
 
             <Button
                 android:id="@+id/b_10_6"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
+                android:layout_margin="1sp"
                 android:layout_weight=".5"
                 android:imeActionId="74"
+                android:background="@color/colorPrimaryDark"
                 android:onClick="clicked" />
 
             <Button
                 android:id="@+id/b_11_6"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
+                android:layout_margin="1sp"
                 android:layout_weight=".5"
                 android:imeActionId="75"
+                android:background="@color/colorPrimaryDark"
                 android:onClick="clicked" />
 
             <Button
                 android:id="@+id/b_12_6"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
+                android:layout_margin="1sp"
                 android:layout_weight=".5"
                 android:imeActionId="76"
+                android:background="@color/colorPrimaryDark"
                 android:onClick="clicked" />
 
             <Button
                 android:id="@+id/b_13_6"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
+                android:layout_margin="1sp"
                 android:layout_weight=".5"
                 android:imeActionId="77"
+                android:background="@color/colorPrimaryDark"
                 android:onClick="clicked" />
 
 
@@ -705,104 +868,130 @@
                 android:id="@+id/b_1_7"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
+                android:layout_margin="1sp"
                 android:layout_weight=".5"
                 android:imeActionId="78"
+                android:background="@color/colorPrimaryDark"
                 android:onClick="clicked" />
 
             <Button
                 android:id="@+id/b_u2_7"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
+                android:layout_margin="1sp"
                 android:layout_weight=".5"
                 android:imeActionId="79"
+                android:background="@color/colorPrimaryDark"
                 android:onClick="clicked" />
 
             <Button
                 android:id="@+id/b_3_7"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
+                android:layout_margin="1sp"
                 android:layout_weight=".5"
                 android:imeActionId="80"
+                android:background="@color/colorPrimaryDark"
                 android:onClick="clicked" />
 
             <Button
                 android:id="@+id/b_4_7"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
+                android:layout_margin="1sp"
                 android:layout_weight=".5"
                 android:imeActionId="81"
+                android:background="@color/colorPrimaryDark"
                 android:onClick="clicked" />
 
             <Button
                 android:id="@+id/b_5_7"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
+                android:layout_margin="1sp"
                 android:layout_weight=".5"
                 android:imeActionId="82"
+                android:background="@color/colorPrimaryDark"
                 android:onClick="clicked" />
 
             <Button
                 android:id="@+id/b_6_7"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
+                android:layout_margin="1sp"
                 android:layout_weight=".5"
                 android:imeActionId="83"
+                android:background="@color/colorPrimaryDark"
                 android:onClick="clicked" />
 
             <Button
                 android:id="@+id/b_7_7"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
+                android:layout_margin="1sp"
                 android:layout_weight=".5"
                 android:imeActionId="84"
+                android:background="@color/colorPrimaryDark"
                 android:onClick="clicked" />
 
             <Button
                 android:id="@+id/b_8_7"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
+                android:layout_margin="1sp"
                 android:layout_weight=".5"
                 android:imeActionId="85"
+                android:background="@color/colorPrimaryDark"
                 android:onClick="clicked" />
 
             <Button
                 android:id="@+id/b_9_7"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
+                android:layout_margin="1sp"
                 android:layout_weight=".5"
                 android:imeActionId="86"
+                android:background="@color/colorPrimaryDark"
                 android:onClick="clicked" />
 
             <Button
                 android:id="@+id/b_10_7"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
+                android:layout_margin="1sp"
                 android:layout_weight=".5"
                 android:imeActionId="87"
+                android:background="@color/colorPrimaryDark"
                 android:onClick="clicked" />
 
             <Button
                 android:id="@+id/b_11_7"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
+                android:layout_margin="1sp"
                 android:layout_weight=".5"
                 android:imeActionId="88"
+                android:background="@color/colorPrimaryDark"
                 android:onClick="clicked" />
 
             <Button
                 android:id="@+id/b_12_7"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
+                android:layout_margin="1sp"
                 android:layout_weight=".5"
                 android:imeActionId="89"
+                android:background="@color/colorPrimaryDark"
                 android:onClick="clicked" />
 
             <Button
                 android:id="@+id/b_13_7"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
+                android:layout_margin="1sp"
                 android:layout_weight=".5"
                 android:imeActionId="90"
+                android:background="@color/colorPrimaryDark"
                 android:onClick="clicked" />
 
 
@@ -818,104 +1007,130 @@
                 android:id="@+id/b_1_8"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
+                android:layout_margin="1sp"
                 android:layout_weight=".5"
                 android:imeActionId="91"
+                android:background="@color/colorPrimaryDark"
                 android:onClick="clicked" />
 
             <Button
                 android:id="@+id/b_2_8"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
+                android:layout_margin="1sp"
                 android:layout_weight=".5"
                 android:imeActionId="92"
+                android:background="@color/colorPrimaryDark"
                 android:onClick="clicked" />
 
             <Button
                 android:id="@+id/b_3_8"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
+                android:layout_margin="1sp"
                 android:layout_weight=".5"
                 android:imeActionId="93"
+                android:background="@color/colorPrimaryDark"
                 android:onClick="clicked" />
 
             <Button
                 android:id="@+id/b_4_8"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
+                android:layout_margin="1sp"
                 android:layout_weight=".5"
                 android:imeActionId="94"
+                android:background="@color/colorPrimaryDark"
                 android:onClick="clicked" />
 
             <Button
                 android:id="@+id/b_5_8"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
+                android:layout_margin="1sp"
                 android:layout_weight=".5"
                 android:imeActionId="95"
+                android:background="@color/colorPrimaryDark"
                 android:onClick="clicked" />
 
             <Button
                 android:id="@+id/b_6_8"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
+                android:layout_margin="1sp"
                 android:layout_weight=".5"
                 android:imeActionId="96"
+                android:background="@color/colorPrimaryDark"
                 android:onClick="clicked" />
 
             <Button
                 android:id="@+id/b_7_8"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
+                android:layout_margin="1sp"
                 android:layout_weight=".5"
                 android:imeActionId="97"
+                android:background="@color/colorPrimaryDark"
                 android:onClick="clicked" />
 
             <Button
                 android:id="@+id/b_8_8"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
+                android:layout_margin="1sp"
                 android:layout_weight=".5"
                 android:imeActionId="98"
+                android:background="@color/colorPrimaryDark"
                 android:onClick="clicked" />
 
             <Button
                 android:id="@+id/b_9_8"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
+                android:layout_margin="1sp"
                 android:layout_weight=".5"
                 android:imeActionId="99"
+                android:background="@color/colorPrimaryDark"
                 android:onClick="clicked" />
 
             <Button
                 android:id="@+id/b_10_8"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
+                android:layout_margin="1sp"
                 android:layout_weight=".5"
                 android:imeActionId="100"
+                android:background="@color/colorPrimaryDark"
                 android:onClick="clicked" />
 
             <Button
                 android:id="@+id/b_11_8"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
+                android:layout_margin="1sp"
                 android:layout_weight=".5"
                 android:imeActionId="101"
+                android:background="@color/colorPrimaryDark"
                 android:onClick="clicked" />
 
             <Button
                 android:id="@+id/b_12_8"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
+                android:layout_margin="1sp"
                 android:layout_weight=".5"
                 android:imeActionId="102"
+                android:background="@color/colorPrimaryDark"
                 android:onClick="clicked" />
 
             <Button
                 android:id="@+id/b_13_8"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
+                android:layout_margin="1sp"
                 android:layout_weight=".5"
                 android:imeActionId="103"
+                android:background="@color/colorPrimaryDark"
                 android:onClick="clicked" />
 
 
