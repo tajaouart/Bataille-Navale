@@ -12,26 +12,35 @@ import android.view.WindowManager;
 import android.widget.Button;
 
 import java.lang.reflect.Array;
-import java.util.Random;
 
 public class MainActivity extends AppCompatActivity {
 
+    // declaration of ships
     static int[][] Croiseur    = new int[6][3];
     static int[][] Escorteurs  = new int[5][3];
     static int[][] Torpilleurs = new int[4][3];
     static int[][] Sous_marins = new int[3][3];
+    // number of each ship that will be inserted
     final static int nbrCroiseur    = 1;
     final static int nbrEscorteurs  = 2;
     final static int nbrTorpilleurs = 3;
     final static int nbrSous_marins = 4;
+    // scene dimensions WIDTH and HEIGHT
     final static int W = 14;
     final static int H = 9;
+    // the scene of the game
     static int[][] scene = new int[H][W];
 
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
+        // Create the game
+        randomGame();
+
+
+
         super.onCreate(savedInstanceState);
         //setContentView(R.layout.activity_main);
         //Remove title bar
@@ -42,17 +51,20 @@ public class MainActivity extends AppCompatActivity {
 
         //set content view AFTER ABOVE sequence
         this.setContentView(R.layout.activity_main);
-        randomGame();
-        ShowScene();
+
     }
 
+    // generate a random scene
     public static  void randomGame(){
-        // settin all boxes to 0, the initial state
+        // settin all boxes in the scene to 0, the initial state
         scene = initialiseScene();
-        initialiseBoxes();
+        // initilise the ships
+        initialiseShips();
+        // inserting the ships into the scene
         fullingInTheScene();
     }
     private static void fullingInTheScene() {
+        // insert each ship in the scene with the mentioned number of times
         insertShip(Croiseur,nbrCroiseur);
         insertShip(Escorteurs,nbrEscorteurs);
         insertShip(Torpilleurs, nbrTorpilleurs);
@@ -68,7 +80,7 @@ public class MainActivity extends AppCompatActivity {
         return  (int) (Math.random() * (H-1));
     }
 
-    private static void initialiseBoxes() {
+    private static void initialiseShips() {
         Croiseur    = fullingInShipsValues(Croiseur);
         Escorteurs  = fullingInShipsValues(Escorteurs);
         Torpilleurs = fullingInShipsValues(Torpilleurs);
@@ -105,17 +117,6 @@ public class MainActivity extends AppCompatActivity {
         return cases;
     }
 
-    private static void ShowScene() {
-        for(int i = 0 ; i < 14 ; i++){
-            for (int j=0 ; j<8 ; j++ ){
-                int[] column = (int[])Array.get(scene,i);
-                int value = (int) Array.get(column,j);
-                System.out.print(value);
-            }
-            System.out.print("\n");
-        }
-    }
-
     // insert the ship into the scene
     private static void insertShip(int[][] aShip,int nbrInsertedShips) {
 
@@ -126,11 +127,13 @@ public class MainActivity extends AppCompatActivity {
             x = RandomX();
             y = RandomY();
             nbrEmptyBoxes =0;
+            // rotating or not the ship depending on the random value
             if((int)(Math.random())*100 % 2==0){
                 ship = rotateShip(ship);
             }
 
 
+            // verifying that there is enough space to insert the ship
             if(x<(W-ship.length) && y<(H-ship[0].length)){
                 for(int i=x ; i<(x+ship.length);i++){
                     for (int j=y; j<(y+ship[0].length); j++){
@@ -155,6 +158,7 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+    // rotate Right 90°
     private static int[][] rotateShip(int[][] ship) {
         int width  = ship.length;
         int height = ship[0].length;
@@ -177,6 +181,7 @@ public class MainActivity extends AppCompatActivity {
         Button clickedBtn = findViewById(v.getId());
         int indexBtn = clickedBtn.getImeActionId();
         int x=0,y=0;
+        // convert the index to x,y coordinates
         while((indexBtn-13)>0){
             indexBtn = indexBtn - 13;
             y++;
@@ -184,14 +189,14 @@ public class MainActivity extends AppCompatActivity {
         x=indexBtn;
         if(scene[x][y]==1){
             //clickedBtn.setBackgroundColor(getResources().getColor(R.color.colorPrimary));
-            Drawable star = ContextCompat.getDrawable(this, android.R.drawable.star_big_on);
-            clickedBtn.setBackground(star);
+            Drawable fire = ContextCompat.getDrawable(this, R.drawable.fireicon);
+            clickedBtn.setBackground(fire);
+
         } else{
             clickedBtn.setText(".");
             clickedBtn.setTextColor(getResources().getColor(R.color.colorPrimary));
             //clickedBtn.setVisibility(View.INVISIBLE);
             clickedBtn.setBackgroundColor(android.R.attr.colorError);
-
         }
     }
 
