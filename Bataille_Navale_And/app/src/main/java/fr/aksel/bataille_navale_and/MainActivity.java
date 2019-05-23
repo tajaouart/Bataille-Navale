@@ -10,6 +10,7 @@ import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
 import android.widget.Button;
+import android.widget.Toast;
 
 import java.lang.reflect.Array;
 
@@ -25,16 +26,22 @@ public class MainActivity extends AppCompatActivity {
     final static int nbrEscorteurs  = 2;
     final static int nbrTorpilleurs = 3;
     final static int nbrSous_marins = 4;
+    // number of total boxes in all ships
+    final static int nbrShipsBoxes = nbrCroiseur*4 + nbrEscorteurs*3 + nbrTorpilleurs*2 + nbrSous_marins;
     // scene dimensions WIDTH and HEIGHT
     final static int W = 14;
     final static int H = 9;
     // the scene of the game
     static int[][] scene = new int[H][W];
+    // number of found ships
+    int nbrFoundShips = 0;
+
 
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
 
         // Create the game
         randomGame();
@@ -63,6 +70,8 @@ public class MainActivity extends AppCompatActivity {
         // inserting the ships into the scene
         fullingInTheScene();
     }
+
+    // putting ships in the scene
     private static void fullingInTheScene() {
         // insert each ship in the scene with the mentioned number of times
         insertShip(Croiseur,nbrCroiseur);
@@ -72,14 +81,17 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
+    // generating a random x value < width of the scene
     static int  RandomX(){
         return  (int) (Math.random() * (W-1));
     }
 
+    // generating a random y value < height of the scene
     static int  RandomY(){
         return  (int) (Math.random() * (H-1));
     }
 
+    // initialising ships
     private static void initialiseShips() {
         Croiseur    = fullingInShipsValues(Croiseur);
         Escorteurs  = fullingInShipsValues(Escorteurs);
@@ -89,6 +101,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    //forming the ships by putting in values
     private static int[][] fullingInShipsValues(int[][] ship) {
         int width  = ship.length;
         int height = ship[0].length;
@@ -116,6 +129,8 @@ public class MainActivity extends AppCompatActivity {
         }
         return cases;
     }
+
+
 
     // insert the ship into the scene
     private static void insertShip(int[][] aShip,int nbrInsertedShips) {
@@ -173,11 +188,17 @@ public class MainActivity extends AppCompatActivity {
         return verticalShip;
     }
 
+    public void showResult(){
+        String message = String.valueOf(nbrFoundShips)+" / " + String.valueOf(nbrShipsBoxes);
+        Toast.makeText(this, message,
+                Toast.LENGTH_LONG).show();
+    }
+
 
 
 
     @RequiresApi(api = Build.VERSION_CODES.JELLY_BEAN)
-    void clicked(View v){
+    void clicked(View v) throws InterruptedException {
         Button clickedBtn = findViewById(v.getId());
         int indexBtn = clickedBtn.getImeActionId();
         int x=0,y=0;
@@ -187,17 +208,37 @@ public class MainActivity extends AppCompatActivity {
             y++;
         }
         x=indexBtn;
+        // if hit goal show fire idon
         if(scene[x][y]==1){
-            //clickedBtn.setBackgroundColor(getResources().getColor(R.color.colorPrimary));
+            // change boxe view to a fire icon
             Drawable fire = ContextCompat.getDrawable(this, R.drawable.fireicon);
             clickedBtn.setBackground(fire);
+            // disable the button so the nbrFoundShips wont be incremented
+            clickedBtn.setEnabled(false);
+            nbrFoundShips++;
+            showResult();
+            if(nbrFoundShips >= nbrShipsBoxes){
+                // waiting for one second
+                Thread.sleep(1000);
 
-        } else{
+                GameOver();
+            }
+
+        }
+        // if miss show a point/nothing happens
+        else{
             clickedBtn.setText(".");
             clickedBtn.setTextColor(getResources().getColor(R.color.colorPrimary));
-            //clickedBtn.setVisibility(View.INVISIBLE);
             clickedBtn.setBackgroundColor(android.R.attr.colorError);
+
         }
     }
+
+    // when the game is over
+    private void GameOver() {
+        Toast.makeText(this, "Congrats.",Toast.LENGTH_LONG).show();
+        this.finish();
+    }
+
 
 }
