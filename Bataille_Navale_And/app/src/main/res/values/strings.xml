@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Bataille_Navale_And</string>
+    <string name="title_activity_home">Battle Ship</string>
 </resources>
